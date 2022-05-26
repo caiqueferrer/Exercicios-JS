@@ -1,8 +1,8 @@
 function CalcularImc()
 {
-    let nome = prompt ('Digite seu nome');
-    let peso = parseFloat (prompt ('Digite seu peso'));
-    let altura = parseFloat (prompt ('Digite sua altura'));
+    let nome = prompt('Digite seu nome');
+    let peso = parseFloat(prompt ('Digite seu peso'));
+    let altura = parseFloat(prompt ('Digite sua altura'));
     let imc = 0;
     let resultado;
 

@@ -1,13 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<htmlinput lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exericios JS</title>
-    <script type="text/javascript" src="code.js"></script>
+
+    <script type="text/javascript" src="IMC.js"></script>
+    <script type="text/javascript" src="Temp.js"></script>
+    <script type="text/javascript" src="Par.js"></script>
+    <script type="text/javascript" src="Maior.js"></script>
+    <script type="text/javascript" src="Aposentadoria.js"></script>
+    
 </head>
-<body>
+
+<input>
+
+    <h2>IMC</h2>
     <input type="button" value="Calcular IMC" onclick="CalcularImc();">
+    
+    <br>
+
+    <h2>ParOuImpar</h2>
+    <input type="button" value="Clique Aki" onclick="ParOuImpar()";>
+
+    <br>
+
+    <h2>SomaDosMaiores</h2>
+    <input type="button" value="Clique aki" onclick="Maior()";>
+
+    <br>
+
+    <h2>Aposentadoria</h2>
+    <input type="button" value="Calcular Aposentadoria" onclick="Aposentadoria()">
+
+    <br>
+
+    <h2>Conversão de Temperatura</h2>
+        <fieldset>
+
+        <legend>Conversão de Temperatura</legend>
+
+        <label for="Centigrados">Centigrados: </label>
+        <input type="number" id="Centigrados"></input>
+        
+        <br>
+        <br>
+
+        <label for="Fahrenheit">Fahrenheit: </label>
+        <input type="number" id="Fahrenheit">
+        
+        <br>
+        <br>
+    
+        <input type="button" value="Converter" onclick="ConverterTemperatura()">
+
+        <br>
+        <br>
+
+        </fieldset>
+
+    <h2>Conversão De Litros</h2>
+        <fieldset>
+    
+            <legend>Conversão de Litros</legend>
+
+            <label for="Tempo">Tempo: </label>
+            <input type="number" id="Tempo">
+
+            <br>
+            <br>
+
+            <label for="Velocidade">Velocidade: </label>
+            <input type="number" id="Velocidade">
+
+            <br>
+            <br>
+
+            <label for="Distancia">Distancia: </label>
+            <input type="number" id="Distancia">
+
+            <br>
+            <br>
+
+            <label for="Litros">Litros: </label>
+            <input type="number" id="Litros">
+
+            <br>
+            <br>
+
+            <input type="button" value="Litros" onclick="Litros()">
+
+        </fieldset>
+
 </body>
 </html>

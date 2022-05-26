@@ -1,7 +1,7 @@
 function ParOuImpar()
 {
 
-    let numero = parseInt (prompt("Digite Seu Numero"))
+    let numero = parseInt(prompt("Digite Seu Numero"))
     let resto = numero % 2;
     
     resto = numero % 2

@@ -20,5 +20,4 @@ function Aposentadoria() {
     }
 
     alert(resultado);
-
 }
